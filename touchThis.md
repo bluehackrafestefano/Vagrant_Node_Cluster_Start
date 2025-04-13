@@ -65,3 +65,12 @@ curl -fsSL https://www.mongodb.org/static/pgp/server-4.2.asc | \
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-4.2.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
 
 sudo apt-get install -y mongodb-org=4.2.0
+
+--------
+
+{
+    "status": [
+        "completed"
+    ],
+    "name": "Finish This"
+}
